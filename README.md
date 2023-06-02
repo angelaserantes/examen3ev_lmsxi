@@ -122,3 +122,10 @@ let $nuevoXML :=
 return $nuevoXML
 ```
 Empleando la misma estructura que en la anterior consulta en este caso sólo devolvemos los premiados que no tenían motivo con un nuevo motivo.
+
+
+## JSON
+
+Creamos las clases App, Employee y EmployeeList para poder deserializar el archivo Json con los datos de los empleados. En la clase
+App leemos el json, con la clase Employee describimos a un empleado y con la clase EmployeeList tenemos la lista de empleados (ArrayList) para poder
+deserializar el archivo 
